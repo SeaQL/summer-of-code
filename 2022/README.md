@@ -32,14 +32,28 @@ We want to preform graph analysis and visualization for an inter-related set of 
 
 There is already some preliminary research done internally for this project and so it is not entirely from scratch.
 
-Ref: https://medium.com/graph-commons/analyzing-the-npm-dependency-network-e2cf318c1d0d
+Reference: https://medium.com/graph-commons/analyzing-the-npm-dependency-network-e2cf318c1d0d
 
-## 3. Support an open source NewSQL database (CockroachDB, TiDB, Clickhouse etc)
+## 3. Support an open source NewSQL database (CockroachDB, TiDB, ClickHouse etc)
 
 This is more career oriented than the other projects, because if you are graduating and finding jobs in the startup world, having experience in NewSQL will definitely make you a star!
 
-Basically we would like to support one of the open source NewSQL databases. CockroachDB is somewhat compatible with Postgres while TiDB is somewhat compatible with MySQL, so if we go for one of these two, we will be developing value-added facilities in the SeaQL ecosystem. If we go after Clickhouse (or a similar non-compatible database), we will have to support it's syntax, protocol and other lower level aspects of the technology stack. It's entirely up to you, just don't propose a non-open-source database thanks!
+Basically we would like to support one of the open source NewSQL databases. CockroachDB is somewhat compatible with Postgres while TiDB is somewhat compatible with MySQL, so if we go for one of these two, we will be developing value-added facilities in the SeaQL ecosystem. If we go after ClickHouse (or a similar non-compatible database), we will have to support it's syntax (SeaQuery), protocol and other lower level aspects of the technology stack. It's entirely up to you, just don't propose a non-open-source database thanks!
 
 ## 4. Query linter for SeaORM
 
+SeaORM is dynamic. As such we cannot check for query correctness compile-time. We wanted to support test-time linting, meaning we enable the linter during unit tests / integration tests / CI and disable it during production. The linter should be able to catch syntatic, semantic and logic errors given the schema definition. You can think of it as "Clippy for SeaORM"!
+
+### Reference
+
+https://www.sea-ql.org/SeaORM/docs/write-test/testing
+https://github.com/SeaQL/sea-orm/search?q=lint%3A
+
 ## 5. A SQL interpreter primarily intended for Mock testing 
+
+The is by far the most academic oriented project. We already have "rudimentary" Mock testing support in SeaORM. If we are able to implement a basic SQL interpreter, we will be able to move some unit-testing originally requiring SQLite into pure Rust. Note that for the scope of this project, we absolutely do not cater the "harder" aspects of databases, for example, ACID, concurrency, storage etc. It will be a pure in-memory SQL simulator / interpreter with the only concern being correct.
+
+### Reference
+
+https://github.com/joaoh82/rust_sqlite
+https://github.com/gluesql/gluesql

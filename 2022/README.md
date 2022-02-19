@@ -47,6 +47,7 @@ SeaORM is dynamic. As such we cannot check for query correctness compile-time. W
 ### Reference
 
 https://www.sea-ql.org/SeaORM/docs/write-test/testing
+
 https://github.com/SeaQL/sea-orm/search?q=lint%3A
 
 ## 5. A SQL interpreter primarily intended for Mock testing 
@@ -56,4 +57,5 @@ The is by far the most academic oriented project. We already have "rudimentary" 
 ### Reference
 
 https://github.com/joaoh82/rust_sqlite
+
 https://github.com/gluesql/gluesql

@@ -2,8 +2,6 @@
 
 ## 1. A GraphQL framework on top of SeaORM
 
-### Background
-
 We would like to have a GraphQL framework / engine that build's on top of SeaORM. It is now doable to roll your own GraphQL solution using SeaORM, but it is so cumbersome and every resolver has to be coded by hand. We could take inspiration from [awto](https://github.com/awto-rs/awto), where database schema follows a set convention, so that we are able to provide common GraphQL operations (pagination, filtering, sorting, joining etc) out-of-the-box. We can also take inspiration from Hasura or Dgraph of developing a GraphQL engine. The exact approach has to be discussed, as we do not want to duplicate Hasura, which is itself a pretty great open source project.
 
 ### Reference
@@ -32,7 +30,9 @@ We want to preform graph analysis and visualization for an inter-related set of 
 
 There is already some preliminary research done internally for this project and so it is not entirely from scratch.
 
-Reference: https://medium.com/graph-commons/analyzing-the-npm-dependency-network-e2cf318c1d0d
+### Reference
+
+https://medium.com/graph-commons/analyzing-the-npm-dependency-network-e2cf318c1d0d
 
 ## 3. Support an open source NewSQL database (CockroachDB, TiDB, ClickHouse etc)
 

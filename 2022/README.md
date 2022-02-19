@@ -28,7 +28,17 @@ We would like to have a GraphQL framework / engine that build's on top of SeaORM
 
 ## 2. A graph database and query engine (codename StarfishQL) for graph analysis and visualization
 
+We want to preform graph analysis and visualization for an inter-related set of entities. For example, we could visualize the dependency network of crates on crates.io!
+
+There is already some preliminary research done internally for this project and so it is not entirely from scratch.
+
+Ref: https://medium.com/graph-commons/analyzing-the-npm-dependency-network-e2cf318c1d0d
+
 ## 3. Support an open source NewSQL database (CockroachDB, TiDB, Clickhouse etc)
+
+This is more career oriented than the other projects, because if you are graduating and finding jobs in the startup world, having experience in NewSQL will definitely make you a star!
+
+Basically we would like to support one of the open source NewSQL databases. CockroachDB is somewhat compatible with Postgres while TiDB is somewhat compatible with MySQL, so if we go for one of these two, we will be developing value-added facilities in the SeaQL ecosystem. If we go after Clickhouse (or a similar non-compatible database), we will have to support it's syntax, protocol and other lower level aspects of the technology stack. It's entirely up to you, just don't propose a non-open-source database thanks!
 
 ## 4. Query linter for SeaORM
 

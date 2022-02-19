@@ -1,4 +1,4 @@
-# 2022 GSoC Idea List
+# 2022 GSoC Ideas List
 
 ## 1. A GraphQL framework on top of SeaORM
 

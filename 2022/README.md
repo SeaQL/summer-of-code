@@ -14,12 +14,12 @@ An extensible and customizable GraphQL framework / engine works on top of SeaORM
 
 ### Possible Mentors
 
-- [Chris Tsang](https://github.com/tyt2y3)
 - [Billy Chan](https://github.com/billy1624)
+- [Sanford Pun](https://github.com/shpun817)
 
 ### Expected Size of Project
 
-- 175 hours
+- 350 hours
 
 ### Difficulty Rating of Project
 
@@ -61,8 +61,8 @@ An interactive web visualization tool for network of crates on [crates.io](https
 
 ### Possible Mentors
 
-- [Chris Tsang](https://github.com/tyt2y3)
 - [Billy Chan](https://github.com/billy1624)
+- [Sanford Pun](https://github.com/shpun817)
 
 ### Expected Size of Project
 
@@ -92,8 +92,8 @@ It could be a query builder or a database driver written in Rust for an specific
 
 ### Possible Mentors
 
-- [Chris Tsang](https://github.com/tyt2y3)
 - [Billy Chan](https://github.com/billy1624)
+- [Charles Chege](https://github.com/charleschege)
 
 ### Expected Size of Project
 
@@ -109,7 +109,7 @@ SeaORM is dynamic. As such we cannot check for query correctness compile-time. W
 
 ### Deliverables
 
-A linter for SeaORM to catch errors of SQL queries at compile-time.
+A linter for SeaORM to catch errors of SQL queries at test-time.
 
 ### Skills Preferred
 

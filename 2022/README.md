@@ -4,6 +4,27 @@
 
 We would like to have a GraphQL framework / engine that build's on top of SeaORM. It is now doable to roll your own GraphQL solution using SeaORM, but it is so cumbersome and every resolver has to be coded by hand. We could take inspiration from [awto](https://github.com/awto-rs/awto), where database schema follows a set convention, so that we are able to provide common GraphQL operations (pagination, filtering, sorting, joining etc) out-of-the-box. We can also take inspiration from Hasura or Dgraph of developing a GraphQL engine. The exact approach has to be discussed, as we do not want to duplicate Hasura, which is itself a pretty great open source project.
 
+### Deliverables
+
+An extensible and customizable GraphQL framework / engine works on top of SeaORM which will be published on [crates.io](https://crates.io/).
+
+### Skills Preferred
+
+- Knowledge in GraphQL
+
+### Possible Mentors
+
+- [Chris Tsang](https://github.com/tyt2y3)
+- [Billy Chan](https://github.com/billy1624)
+
+### Expected Size of Project
+
+- 175 hours
+
+### Difficulty Rating of Project
+
+- Medium
+
 ### Reference
 
 <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><a data-darkreader-inline-color="" href="https://www.prisma.io/blog/how-to-wrap-a-rest-api-with-graphql-8bf3fb17547d" style="color: blue; text-decoration: underline; --darkreader-inline-color:#337dff;">Wrap a REST API with GraphQL - A 3-step tutorial | Prisma</a></span></span></span></span></p>
@@ -26,9 +47,30 @@ We would like to have a GraphQL framework / engine that build's on top of SeaORM
 
 ## 2. A graph database and query engine (codename StarfishQL) for graph analysis and visualization
 
-We want to preform graph analysis and visualization for an inter-related set of entities. For example, we could visualize the dependency network of crates on crates.io!
+We want to preform graph analysis and visualization for an inter-related set of entities. For example, we could visualize the dependency network of crates on [crates.io](https://crates.io/)!
 
 There is already some preliminary research done internally for this project and so it is not entirely from scratch.
+
+### Deliverables
+
+An interactive web visualization tool for network of crates on [crates.io](https://crates.io/). Different types of visualization will be provided, for example, dependency analysis and dependant analysis.
+
+### Skills Preferred
+
+- Familar with graph analysis
+
+### Possible Mentors
+
+- [Chris Tsang](https://github.com/tyt2y3)
+- [Billy Chan](https://github.com/billy1624)
+
+### Expected Size of Project
+
+- 350 hours
+
+### Difficulty Rating of Project
+
+- Hard
 
 ### Reference
 
@@ -40,9 +82,51 @@ This is more career oriented than the other projects, because if you are graduat
 
 Basically we would like to support one of the open source NewSQL databases. CockroachDB is somewhat compatible with Postgres while TiDB is somewhat compatible with MySQL, so if we go for one of these two, we will be developing value-added facilities in the SeaQL ecosystem. If we go after ClickHouse (or a similar non-compatible database), we will have to support it's syntax (SeaQuery), protocol and other lower level aspects of the technology stack. It's entirely up to you, just don't propose a non-open-source database thanks!
 
+### Deliverables
+
+It could be a query builder or a database driver written in Rust for an specific NewSQL database.
+
+### Skills Preferred
+
+- Familiar with one of open source NewSQL database, such as CockroachDB, TiDB, ClickHouse, etc.
+
+### Possible Mentors
+
+- [Chris Tsang](https://github.com/tyt2y3)
+- [Billy Chan](https://github.com/billy1624)
+
+### Expected Size of Project
+
+- 350 hours
+
+### Difficulty Rating of Project
+
+- Medium
+
 ## 4. Query linter for SeaORM
 
 SeaORM is dynamic. As such we cannot check for query correctness compile-time. We wanted to support test-time linting, meaning we enable the linter during unit tests / integration tests / CI and disable it during production. The linter should be able to catch syntatic, semantic and logic errors given the schema definition. You can think of it as "Clippy for SeaORM"!
+
+### Deliverables
+
+A linter for SeaORM to catch errors of SQL queries at compile-time.
+
+### Skills Preferred
+
+- Familiar with SQL syntax of at least one rational database
+
+### Possible Mentors
+
+- [Chris Tsang](https://github.com/tyt2y3)
+- [Billy Chan](https://github.com/billy1624)
+
+### Expected Size of Project
+
+- 350 hours
+
+### Difficulty Rating of Project
+
+- Medium
 
 ### Reference
 
@@ -53,6 +137,27 @@ https://github.com/SeaQL/sea-orm/search?q=lint%3A
 ## 5. A SQL interpreter primarily intended for Mock testing 
 
 The is by far the most academic oriented project. We already have "rudimentary" Mock testing support in SeaORM. If we are able to implement a basic SQL interpreter, we will be able to move some unit-testing originally requiring SQLite into pure Rust. Note that for the scope of this project, we absolutely do not cater the "harder" aspects of databases, for example, ACID, concurrency, storage etc. It will be a pure in-memory SQL simulator / interpreter with the only concern being correct.
+
+### Deliverables
+
+A SQL interpreter that can simulate the effects of basic CRUD SQL statments.
+
+### Skills Preferred
+
+- Solid knowledge of database
+
+### Possible Mentors
+
+- [Chris Tsang](https://github.com/tyt2y3)
+- [Billy Chan](https://github.com/billy1624)
+
+### Expected Size of Project
+
+- 350 hours
+
+### Difficulty Rating of Project
+
+- Hard
 
 ### Reference
 

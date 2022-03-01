@@ -78,11 +78,11 @@ An interactive web visualization tool for network of crates on [crates.io](https
 
 https://medium.com/graph-commons/analyzing-the-npm-dependency-network-e2cf318c1d0d
 
-## 3. Support an open source NewSQL database (CockroachDB, TiDB, ClickHouse etc)
+## 3. Support an open source NewSQL database (CockroachDB, TiDB, Presto etc)
 
 This is more career oriented than the other projects, because if you are graduating and finding jobs in the startup world, having experience in NewSQL will definitely make you a star!
 
-Basically we would like to support one of the open source NewSQL databases. CockroachDB is somewhat compatible with Postgres while TiDB is somewhat compatible with MySQL, so if we go for one of these two, we will be developing value-added facilities in the SeaQL ecosystem. If we go after ClickHouse (or a similar non-compatible database), we will have to support it's syntax (SeaQuery), protocol and other lower level aspects of the technology stack. It's entirely up to you, just don't propose a non-open-source database thanks!
+Basically we would like to support one of the open source NewSQL databases. CockroachDB is somewhat compatible with Postgres while TiDB is somewhat compatible with MySQL, so if we go for one of these two, we will be developing value-added facilities in the SeaQL ecosystem. If we go after Presto (or a similar non-compatible database), we will have to support it's syntax (SeaQuery), protocol and other lower level aspects of the technology stack. It's entirely up to you, just don't propose a non-open-source database thanks!
 
 ### Deliverables
 
@@ -90,7 +90,7 @@ It could be a query builder or a database driver written in Rust for an specific
 
 ### Skills Preferred
 
-- Familiar with one of open source NewSQL database, such as CockroachDB, TiDB, ClickHouse, etc.
+- Familiar with one of open source NewSQL database, such as CockroachDB, TiDB, Presto, etc.
 
 ### Possible Mentors
 

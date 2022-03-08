@@ -1,5 +1,11 @@
 # 2022 GSoC Ideas List
 
+https://summerofcode.withgoogle.com/programs/2022/organizations/seaql
+
+We are super excited that SeaQL has been selected as a Google Summer of Code 2022 mentor organization.
+
+Prospective contributors, please open a discussion with us on [Discussions](https://github.com/SeaQL/summer-of-code/discussions)!
+
 ## 1. A GraphQL framework on top of SeaORM
 
 We would like to have a GraphQL framework / engine that build's on top of SeaORM. It is now doable to roll your own GraphQL solution using SeaORM, but it is so cumbersome and every resolver has to be coded by hand. We could take inspiration from [awto](https://github.com/awto-rs/awto), where database schema follows a set convention, so that we are able to provide common GraphQL operations (pagination, filtering, sorting, joining etc) out-of-the-box. We can also take inspiration from Hasura or Dgraph of developing a GraphQL engine. The exact approach has to be discussed, as we do not want to duplicate Hasura, which is itself a pretty great open source project.

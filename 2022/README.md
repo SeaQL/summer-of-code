@@ -1,4 +1,4 @@
-# 2022 GSoC Ideas List
+# GSoC 2022 Ideas List
 
 https://summerofcode.withgoogle.com/programs/2022/organizations/seaql
 

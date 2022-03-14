@@ -4,6 +4,8 @@ We are super excited to be selected as a Google Summer of Code 2022 mentor organ
 
 [GSoC 2022 Organization Profile](https://summerofcode.withgoogle.com/programs/2022/organizations/seaql)
 
+## About SeaQL
+
 In 2020, when we were developing systems in Rust, we noticed a missing piece in the ecosystem: an ORM that integrates well with the Rust async ecosystem. With that in mind, we designed SeaORM to have a familiar API that welcomes developers from node.js, Go, Python, PHP, Ruby and your favourite language.
 
 The first piece of tool we released is [SeaQuery](https://github.com/SeaQL/sea-query), a query builder with a fluent API. It has a simplified AST that reflects SQL syntax. It frees you from stitching strings together in case you needed to construct SQL dynamically and safely, with the advantages of Rust typings.

@@ -44,11 +44,11 @@ We have composed a [GSoC project ideas list](README.md) for you to choose from. 
 
 ## Submit Your Application
 
-
+Starting from 18:00 UTC on April 4, 2022, you have to submit your application on the [Google Summer of Code](https://summerofcode.withgoogle.com) website. Please fill your application in English and make sure you answer all questions in the [application form](APPLICATION.md). Remember to propose a manageable project, contribute to libraries your proposed project is related to, and demonstrate your knowledge, skills and enthusiasm in the application. Note that you should submit your application early and before the application deadline, 18:00 UTC on April 19, 2022.
 
 ## How to Find Us?
 
 You can ask questions or talk to us by
 - Opening a [GitHub Discussions](https://github.com/SeaQL/summer-of-code/discussions)
-- Chatting with [Discord server](https://discord.com/invite/uCPdDXzbdv)
+- Chatting with us on [Discord server](https://discord.com/invite/uCPdDXzbdv)
 - Sending an email to [hello@sea-ql.org](mailto:hello@sea-ql.org)

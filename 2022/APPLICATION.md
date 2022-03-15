@@ -74,7 +74,7 @@ impl Animal {
 }
 ```
 
-_Hint: You might want to define a trait named `Speech`.
+_Hint: You might want to define a trait named `Speech`._
 
 ### Is Rust object-oriented? Why it is and isn't?
 

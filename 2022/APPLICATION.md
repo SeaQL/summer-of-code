@@ -78,6 +78,6 @@ _Hint: You might want to define a trait named `Speech`.
 
 ### Is Rust object-oriented? Why it is and isn't?
 
-==========
+-----
 
 ~ Thank you so much for taking the time to fill this form :) ~

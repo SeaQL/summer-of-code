@@ -3,10 +3,15 @@
 ## Personal Information
 
 **Name:** (Your legal name and a nickname you prefer to be addressed with)
+
 **Location:** (What city and country you reside in?)
+
 **Education:** (If you are a full-time student or a recently graduate, please attach your academic transcript and CC to hello@sea-ql.org p.s. We do not look at your grades, but are more interested in your exposure to various computer science topics)
+
 **Email:** (Your email address)
+
 **GitHub:** (Your GitHub profile. Make sure it looks good! p.s. take https://github.com/tyt2y3/ as reference if you wish)
+
 **Discord:** (Your Discord username)
 
 ## Project Information

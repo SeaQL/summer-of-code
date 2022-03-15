@@ -6,7 +6,7 @@
 
 **Location:** (What city and country you reside in?)
 
-**Education:** (If you are a full-time student or a recently graduate, please attach your academic transcript and CC to hello@sea-ql.org p.s. We do not look at your grades, but are more interested in your exposure to various computer science topics)
+**Education:** (If you are a full-time student or a recent graduate, please attach your academic transcript and CC to hello@sea-ql.org p.s. We do not look at your grades, but are more interested in your exposure to various computer science topics)
 
 **Email:** (Your email address)
 

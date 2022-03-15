@@ -1,10 +1,15 @@
 # GSoC 2022 Application Form
 
-**Name:** <!-- Your name -->  
-**Location:** <!-- What city and country you reside in? -->  
+## Personal Information
+
+**Name:** <!-- Your legal name and a nickname you prefer to be addressed with -->  
+**Location:** <!-- What city and country you reside in? -->
+**Education:** <!-- If you are a full-time student or a recently graduate, please attach your academic transcript and CC to hello@sea-ql.org p.s. We do not look at your grades, but are more interested in your exposure to various computer science topics -->
 **Email:** <!-- Your email address -->  
-**GitHub:** <!-- Your GitHub handle, e.g. SeaQL -->  
-**Discord:** <!-- Your Discord username, e.g. username#1810 -->  
+**GitHub:** <!-- Your GitHub profile. Make sure it looks good! p.s. take https://github.com/tyt2y3/ as reference if you wish -->  
+**Discord:** <!-- Your Discord username -->
+
+## Project Information
 
 ### Project Name
 
@@ -20,25 +25,33 @@
 
 ### What are your past experience, as a end-user and as a contributor, with open source projects?
 
-### Please provide links to your contributions on SeaQL's GitHub repositories
+### Please provide all links to your contributions on SeaQL's GitHub repositories
 
-### Please include links to your contributions to any other open source projects (if any)
+### Please include all links to your contributions to other open source projects
 
-### What are other relevant project have you worked on and what knowledge have you gain from it?
+### What are other relevant projects have you worked on (outside of coursework) and what knowledge have you gain from it?
 
-### Who owns MySQL now?
+## Quiz time
 
-### What is Redis?
+### What are the major differences between MySQL and PostgresSQL?
+
+### What are the differences between MySQL and MariaDB?
 
 ### Why is synchronization hard?
 
-### What ACID stands for?
+### What is ACID and transaction in SQL terms?
 
-### What is transaction in SQL terms?
+### What feature you missed from Rust (that exists in another language)?
 
-### Rewrite the follow Rust snippet with trait
+### Why it does not compile when a type is not thread safe?
 
-```rs
+### What is the difference between Copy vs Clone?
+
+### Why we need an Arc to share an object between threads?
+
+### Rewrite the follow Rust snippet with trait for polymorphism:
+
+```rust
 enum Animal {
     Cat,
     Ferris,
@@ -56,9 +69,9 @@ impl Animal {
 }
 ```
 
-_Hint: You might want to define a trait named `Speech` and three unit structs._
+_Hint: You might want to define a trait named `Speech`.
 
-### Is Rust object-oriented? Why it's and isn't?
+### Is Rust object-oriented? Why it is and isn't?
 
 <br/>
 

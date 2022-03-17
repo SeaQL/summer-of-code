@@ -10,7 +10,7 @@
 
 **Email:** (Your email address)
 
-**GitHub:** (Your GitHub profile. Make sure it looks good! p.s. take https://github.com/tyt2y3/ as reference if you wish)
+**GitHub:** (Your GitHub profile. Make sure it has a nice, long self-intro! p.s. take https://github.com/tyt2y3/ as reference if you wish)
 
 **Discord:** (Your Discord username)
 

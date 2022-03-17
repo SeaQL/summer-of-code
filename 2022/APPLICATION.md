@@ -28,6 +28,8 @@
 
 ### Please provide a list of tasks and subtask for the proposed projects in sequence and estimate how long (in days) each task might take. Remember to highlight important milestone and deliverables.
 
+_Hint: it starts with Design and ends with testing_
+
 ### What are your past experience, as a end-user and as a contributor, with open source projects?
 
 ### Please provide all links to your contributions on SeaQL's GitHub repositories

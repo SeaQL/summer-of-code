@@ -26,9 +26,11 @@
 
 ### Why you are the right person to work on the proposed project?
 
-### Please provide a list of tasks and subtask for the proposed projects in sequence and estimate how long (in days) each task might take. Remember to highlight important milestone and deliverables.
+### Please write a design document on the proposed project (with your own imagination, consideration and insights)
 
-_Hint: it starts with Design and ends with testing_
+### Please provide a list of tasks (and subtasks) for the proposed projects in sequence and estimate how long (in days) each task might take. Remember to highlight important milestone and deliverables.
+
+_Hint: testing is essential_
 
 ### What are your past experience, as a end-user and as a contributor, with open source projects?
 

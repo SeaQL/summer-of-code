@@ -35,11 +35,12 @@ We would like to have a GraphQL framework / engine that build's on top of SeaORM
 - [Building a GraphQL to SQL Compiler on Postgres, MS SQL, and MySQL (hasura.io)](https://hasura.io/blog/building-a-graphql-to-sql-compiler-on-postgres-ms-sql-and-mysql/)
 - [Postgres: Filter query results / search queries | Hasura GraphQL Docs](https://hasura.io/docs/latest/graphql/core/databases/postgres/queries/query-filters.html)
 - [Pete Corey - GraphQL NoSQL Injection Through JSON Types](http://www.petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types/)
+
 ## 2. A graph database and query engine (codename StarfishQL) for graph analysis and visualization
 
 We want to preform graph analysis and visualization for an inter-related set of entities. For example, we could visualize the dependency network of crates on [crates.io](https://crates.io/)!
 
-There is already some preliminary research done internally for this project and so it is not entirely from scratch.
+There is already some preliminary research done internally for this project and so it is not entirely from scratch. Checkout [StarfishQL repository](https://github.com/SeaQL/starfish-ql) and [demo app](https://starfish-ql.sea-ql.org/).
 
 **Deliverables:** An interactive web visualization tool for network of crates on [crates.io](https://crates.io/). Different types of visualization will be provided, for example, dependency analysis and dependant analysis.
 

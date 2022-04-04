@@ -8,7 +8,7 @@ Prospective contributors, please open a discussion with us on [Discussions](http
 
 We would like to have a GraphQL framework / engine that build's on top of SeaORM. It is now doable to roll your own GraphQL solution using SeaORM, but it is so cumbersome and every resolver has to be coded by hand. We could take inspiration from [awto](https://github.com/awto-rs/awto), where database schema follows a set convention, so that we are able to provide common GraphQL operations (pagination, filtering, sorting, joining etc) out-of-the-box. We can also take inspiration from Hasura or Dgraph of developing a GraphQL engine. The exact approach has to be discussed, as we do not want to duplicate Hasura, which is itself a pretty great open source project.
 
-**Deliverables:** An extensible and customizable GraphQL framework / engine works on top of SeaORM which will be published on [crates.io](https://crates.io/).
+**Deliverables:** An extensible and customizable GraphQL framework / engine works on top of SeaORM
 
 **Skills Preferred:**
 
@@ -43,7 +43,7 @@ We want to preform graph analysis and visualization for an inter-related set of 
 
 There is already some preliminary work done for this project. Checkout the [StarfishQL repository](https://github.com/SeaQL/starfish-ql) and [demo apps](https://starfish-ql.sea-ql.org/). You need to think about it's potential applications and how to make them a reality.
 
-**Deliverables:** Define and enhance the query language, refine and improve the query engine and develop client-side tools.
+**Deliverables:** Define and enhance the query language, refine and improve the query engine and develop client-side libraries.
 
 **Skills Preferred:**
 
@@ -70,7 +70,7 @@ This is more career oriented than the other projects, because if you are graduat
 
 Basically we would like to support one of the open source NewSQL databases. CockroachDB is somewhat compatible with Postgres while TiDB is somewhat compatible with MySQL, so if we go for one of these two, we will be developing value-added facilities in the SeaQL ecosystem. If we go after Presto (or a similar non-compatible database), we will have to support it's syntax (SeaQuery), protocol and other lower level aspects of the technology stack. It's entirely up to you, just don't propose a non-open-source database thanks!
 
-**Deliverables:** It could be a query builder or a database driver written in Rust for an specific NewSQL database.
+**Deliverables:** It could be a query builder and/or a database driver written in Rust for an specific NewSQL database.
 
 **Skills Preferred:**
 
@@ -114,7 +114,7 @@ SeaORM is dynamic. As such we cannot check for query correctness compile-time. W
 
 The is by far the most academic oriented project. We already have "rudimentary" Mock testing support in SeaORM. If we are able to implement a basic SQL interpreter, we will be able to move some unit-testing originally requiring SQLite into pure Rust. Note that for the scope of this project, we absolutely do not cater the "harder" aspects of databases, for example, ACID, concurrency, storage etc. It will be a pure in-memory SQL simulator / interpreter with the only concern being correct.
 
-**Deliverables:** A SQL interpreter that can simulate the effects of basic CRUD SQL statments.
+**Deliverables:** A SQL interpreter that can simulate the operation of CRUD SQL statements.
 
 **Skills Preferred:**
 

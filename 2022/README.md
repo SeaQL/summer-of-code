@@ -58,7 +58,7 @@ There is already some preliminary work done for this project. Checkout the [Star
 
 **Expected Size of Project:** 350 hours
 
-**Difficulty Rating of Project:** Hard
+**Difficulty Rating of Project:** Medium
 
 **Reference:**
 

@@ -13,6 +13,7 @@ We would like to have a GraphQL framework / engine that build's on top of SeaORM
 **Skills Preferred:**
 
 - Knowledge in GraphQL
+- Experience in Rust & SQL
 
 **Possible Mentors:**
 
@@ -40,13 +41,14 @@ We would like to have a GraphQL framework / engine that build's on top of SeaORM
 
 We want to preform graph analysis and visualization for an inter-related set of entities. For example, we could visualize the dependency network of crates on [crates.io](https://crates.io/)!
 
-There is already some preliminary research done internally for this project and so it is not entirely from scratch. Checkout [StarfishQL repository](https://github.com/SeaQL/starfish-ql) and [demo app](https://starfish-ql.sea-ql.org/).
+There is already some preliminary work done for this project. Checkout the [StarfishQL repository](https://github.com/SeaQL/starfish-ql) and [demo apps](https://starfish-ql.sea-ql.org/). You need to think about it's potential applications and how to make them a reality.
 
-**Deliverables:** An interactive web visualization tool for network of crates on [crates.io](https://crates.io/). Different types of visualization will be provided, for example, dependency analysis and dependant analysis.
+**Deliverables:** Define and enhance the query language, refine and improve the query engine and develop client-side tools.
 
 **Skills Preferred:**
 
 - Familar with graph analysis
+- Experience in Rust & SQL
 
 **Possible Mentors:**
 
@@ -116,7 +118,7 @@ The is by far the most academic oriented project. We already have "rudimentary" 
 
 **Skills Preferred:**
 
-- Solid knowledge of database
+- Solid knowledge of how database and SQL works
 
 **Possible Mentors:**
 

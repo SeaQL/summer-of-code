@@ -62,6 +62,7 @@ There is already some preliminary work done for this project. Checkout the [Star
 
 **Reference:**
 
+- https://www.sea-ql.org/SeaORM/blog/2022-04-04-introducing-starfish-ql
 - https://medium.com/graph-commons/analyzing-the-npm-dependency-network-e2cf318c1d0d
 
 ## 3. Support an open source NewSQL database (CockroachDB, TiDB, Presto etc)

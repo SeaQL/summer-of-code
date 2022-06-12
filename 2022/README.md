@@ -89,7 +89,7 @@ Basically we would like to support one of the open source NewSQL databases. Cock
 
 ## 4. Query linter for SeaORM
 
-SeaORM is dynamic. As such we cannot check for query correctness compile-time. We wanted to support test-time linting, meaning we enable the linter during unit tests / integration tests / CI and disable it during production. The linter should be able to catch syntatic, semantic and logic errors given the schema definition. You can think of it as "Clippy for SeaORM"!
+SeaORM is dynamic. As such we cannot check for query correctness compile-time. We wanted to support test-time linting, meaning we enable the linter during unit tests / integration tests / CI and disable it during production. The linter should be able to catch syntactic, semantic and logic errors given the schema definition. You can think of it as "Clippy for SeaORM"!
 
 **Deliverables:** A linter for SeaORM to catch errors of SQL queries at test-time.
 

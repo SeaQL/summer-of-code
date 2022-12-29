@@ -1,10 +1,15 @@
-# SeaQL looking forward
+> This is a WIP
 
-SeaQL as it's name suggests, is heavily vested in SQL. But it does not mean that we are not looking forward to new trends in data engineering!
+# GSoC 2023 Ideas List
 
-Several ideas we keep our eyes on:
+Welcome! If you haven't read the [GSoC Contributing Guide](CONTRIBUTING.md) please read it first before going through the ideas list.
 
-1. Streaming / Real-time data processing, e.g. Kafka, Redpanda
-2. Distributed query (separation of storage and compute), e.g. Presto, Quickwit
+Prospective contributors, please open a discussion with us on [Discussions](https://github.com/SeaQL/summer-of-code/discussions)!
 
-If you are also interested in these topics, open a discussion with us.
+1. A project on [Seaography](https://github.com/SeaQL/seaography)
+
+2. Continue working on [SqlOtter](https://github.com/SeaQL/sql-otter)
+
+3. A media-centric CMS based on Seaography & SeaORM
+
+4. A MongoDB-like query pipeline implementation

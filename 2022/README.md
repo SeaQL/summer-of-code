@@ -135,6 +135,10 @@ The is by far the most academic oriented project. We already have "rudimentary" 
 - https://github.com/joaoh82/rust_sqlite
 - https://github.com/gluesql/gluesql
 
-# Program Result
+# Selected Projects
 
-https://www.sea-ql.org/blog/2022-09-17-introducing-seaography/
+https://www.sea-ql.org/blog/2022-06-02-summer-of-code-2022-intro/
+
+# Project Results
+
+https://www.sea-ql.org/blog/2022-09-17-introducing-seaography/ / https://github.com/SeaQL/seaography

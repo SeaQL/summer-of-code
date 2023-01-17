@@ -6,7 +6,7 @@ Welcome! If you haven't read the [GSoC Contributing Guide](CONTRIBUTING.md) plea
 
 Prospective contributors, please open a discussion with us on [Discussions](https://github.com/SeaQL/summer-of-code/discussions)!
 
-1. Expand the features of [SeaORM](https://github.com/SeaQL/sea-orm)
+1. Expand the features of [SeaORM](https://github.com/SeaQL/sea-orm) - An async & dynamic ORM for Rust
 
 2. Expand the features of [Seaography](https://github.com/SeaQL/seaography) - A GraphQL framework for SeaORM
 

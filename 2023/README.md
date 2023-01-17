@@ -6,10 +6,12 @@ Welcome! If you haven't read the [GSoC Contributing Guide](CONTRIBUTING.md) plea
 
 Prospective contributors, please open a discussion with us on [Discussions](https://github.com/SeaQL/summer-of-code/discussions)!
 
-1. Expand the features of [Seaography](https://github.com/SeaQL/seaography) - A GraphQL framework for SeaORM
+1. Expand the features of [SeaORM](https://github.com/SeaQL/sea-orm)
 
-2. Continue working on [SqlOtter](https://github.com/SeaQL/otter-sql) - An embeddable SQL Executor
+2. Expand the features of [Seaography](https://github.com/SeaQL/seaography) - A GraphQL framework for SeaORM
 
-3. A media-centric CMS based on Seaography & SeaORM
+3. Continue working on [SqlOtter](https://github.com/SeaQL/otter-sql) - An embeddable SQL Executor
 
-4. A MongoDB-like query pipeline implementation
+4. A media-centric CMS based on Seaography & SeaORM
+
+5. A MongoDB-like query pipeline implementation

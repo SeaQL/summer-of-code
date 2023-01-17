@@ -10,7 +10,7 @@ Prospective contributors, please open a discussion with us on [Discussions](http
 
 2. Expand the features of [Seaography](https://github.com/SeaQL/seaography) - A GraphQL framework for SeaORM
 
-3. Continue working on [SqlOtter](https://github.com/SeaQL/otter-sql) - An embeddable SQL Executor
+3. Continue working on [OtterSql](https://github.com/SeaQL/otter-sql) - An embeddable SQL Executor
 
 4. A media-centric CMS based on Seaography & SeaORM
 

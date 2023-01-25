@@ -112,7 +112,7 @@ To limit the scope of the project, here are some restrictions:
 
 If there is no admin panel, how does the CMS work? File system. Basically we want to design a reasonable directory format and glorify it. All metadata will be stored in the `toml` file format, so it might actually look like a `Cargo` file.
 
-Admin simply have to ssh into the server and upload some files and viola! It will also be very easy to deploy on a local machine - just run the binary. To provide a good experience, it is important that we listen to file system events and update the database index immediately. https://github.com/emcrisostomo/fswatch is a great library and there is a Rust binding too https://github.com/ascclemens/fswatch-sys (we might need to update its dependency).
+Admin simply have to ssh into the server and upload some files and viola! It will also be very easy to deploy - just run the binary. To provide a good experience, it is important that we listen to file system events and update the database index immediately. https://github.com/emcrisostomo/fswatch is a great library and there is a Rust binding too https://github.com/ascclemens/fswatch-sys (we might need to update its dependency).
 
 We will need a database to store the metadata, but the source of truth is the file system. We can use SQLite as the datastore, so there will be no external dependency. We need to be able to update the metadata database incrementally, i.e. if we updated a sub-directory, we only want to update the corresponding subset of the database.
 

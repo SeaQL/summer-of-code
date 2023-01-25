@@ -4,9 +4,9 @@ Welcome! If you haven't read the [GSoC Contributing Guide](CONTRIBUTING.md) plea
 
 Prospective contributors, please open a discussion with us on [Discussions](https://github.com/SeaQL/summer-of-code/discussions)!
 
-## 1. Expand the features of SeaORM - An async & dynamic ORM for Rust
+## 1. Expand the features of [SeaORM](https://github.com/SeaQL/sea-orm) - An async & dynamic ORM for Rust
 
-[SeaORM](https://github.com/SeaQL/sea-orm) is the flagship project of SeaQL. We run a fast iteration cycle, now approaching our 11th release. We have set a solid [architecture](https://www.sea-ql.org/SeaORM/docs/internal-design/architecture/) for expanding the usefulness of an ORM in building data-driven applications, but there is still more to be desired. During this Summer of Code project, you will be involved in one full release cycle and go through it from design to delivery. SeaORM is a maturing project, so the experience will be different from a greenfield "from scratch" project. But we assure the process will be as much fun and much more impactful. Here is an outline of the process:
+SeaORM is the flagship project of SeaQL. We run a fast iteration cycle, now approaching our 11th release. We have set a solid [architecture](https://www.sea-ql.org/SeaORM/docs/internal-design/architecture/) for expanding the usefulness of an ORM in building data-driven applications, but there is still more to be desired. During this Summer of Code project, you will be involved in one full release cycle and go through it from design to delivery. SeaORM is a maturing project, so the experience will be different from a greenfield "from scratch" project. But we assure the process will be as much fun and much more impactful. Here is an outline of the process:
 
 1. Ideation. Draft and refine several ["Proposal & Implementation Plan" (PIP)](https://github.com/SeaQL/sea-orm/issues?q=is%3Aissue+%5BPIP%5D)s
 2. Implementation. Implement the feature following our [Engineering Practices](https://www.sea-ql.org/blog/2022-07-30-engineering/)
@@ -38,9 +38,9 @@ Tips for drafting a proposal: it is important to have had first-hand experience 
 
 **Difficulty Rating of Project:** Medium
 
-## 2. Expand the features of Seaography - A GraphQL framework for SeaORM
+## 2. Expand the features of [Seaography](https://github.com/SeaQL/seaography) - A GraphQL framework for SeaORM
 
-First things first, [Seaography](https://github.com/SeaQL/seaography) is a Summer of Code project created last year! We would like to continue improve upon this project and here are several areas:
+We would like to continue improve upon this project and here are several areas:
 
 1. GraphQL Mutation. CRUD on a single entity is pretty straight forward, but we need to think about to what extend we implement nested insert/update, and especially has to watch out on delete propagation and orphans. We should NOT attempt to cater the most generic M-N recursive graphical schema, but can cater for constrained cases like a tree with limited depth. We should also make the framework flexible enough to allow users to plug in their own mutation logic
 

@@ -140,7 +140,7 @@ Note: just like WordPress, this project is likely to be GPL licensed. All other 
 
 ## 5. A MongoDB-like query pipeline implementation
 
-This project will serve as the foundation for an upcoming document-oriented data processing library. Think of it like an ORM for MongoDB. At SeaQL, we like to be able to simulate everything in a miniaturized fashion - i.e. you can swap MySQL with SQLite with SeaORM. It will be great to have a pure Rust implementation of the logic layer of MongoDB!
+This project will serve as the foundation for an upcoming document-oriented data processing library. Think of it like an ORM for MongoDB. At SeaQL, we like to be able to simulate everything in a miniaturized fashion - i.e. you can replace MySQL with SQLite in SeaORM. It will be great to have a pure Rust implementation of the logic layer of MongoDB!
 
 Luckily, there is already a great example of such implementation - https://github.com/kofrasa/mingo, so there is a lot to learn from there. It will be a good start to port this library to Rust, and gradually refactor / re-architect it to be [idiomatic Rust](https://github.com/mre/idiomatic-rust).
 

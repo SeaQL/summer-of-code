@@ -1,4 +1,4 @@
-> We were not accepted into GSoC 2023. We still offer regular internship, but not in the same format.
+> We were not accepted into GSoC 2023. We still offer regular internship, but not in the same format. Checkout https://www.linkedin.com/jobs/view/3519852307/ for more details.
 
 # GSoC 2023 Ideas List
 

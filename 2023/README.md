@@ -1,3 +1,5 @@
+> We were not accepted into GSoC 2023. We still offer regular internship, but not in the same format.
+
 # GSoC 2023 Ideas List
 
 Welcome! If you haven't read the [GSoC Contributing Guide](CONTRIBUTING.md) please read it first before going through the ideas list.

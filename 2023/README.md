@@ -1,4 +1,4 @@
-We were not accepted into GSoC 2023. We still offered regular internships, but not in the same format.
+We were not accepted into [GSoC 2023](Ideas List.md). We still offered regular internships, but not in the same format.
 
 This summer, we have taken in 2 interns:
 

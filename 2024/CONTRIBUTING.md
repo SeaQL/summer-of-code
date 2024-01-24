@@ -47,7 +47,7 @@ There are many forms of contributions:
 
 ## Choose a GSoC Project
 
-We have composed a [GSoC project ideas list](<Idea List.md>) for you to choose from. You can contact us through one of the channels listed below, introduce yourself and suggest your own project ideas before submitting your application. Feel free to chat with us if you have any questions or thoughts on the project idea.
+We have composed a [GSoC project ideas list](<Ideas List.md>) for you to choose from. You can contact us through one of the channels listed below, introduce yourself and suggest your own project ideas before submitting your application. Feel free to chat with us if you have any questions or thoughts on the project idea.
 
 ## Submit Your Application
 

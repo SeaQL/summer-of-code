@@ -14,6 +14,13 @@ SeaORM is the flagship project of SeaQL. We are now approaching our first stable
 4. Documentation. Write throughout documentation and may be tutorials to guide users of the new feature
 5. Release. Co-author the release notes and make an announcement
 
+A few ideas:
+
+1. Migration template and generation https://github.com/SeaQL/sea-orm/discussions/645
+1. Customisation aware entity generation https://github.com/SeaQL/sea-orm/issues/1931
+1. Entity first workflow (e.g. https://learn.microsoft.com/en-us/ef/ef6/modeling/code-first/migrations/automatic I am sure there is a discussion thread somewhere)
+1. Deeply nested select https://github.com/SeaQL/sea-orm/discussions/1502
+
 Tips for drafting a proposal: it is important to have had first-hand experience using SeaORM. Identify one or more aspects you want to improve, and focus on them. Here are several suggestions, but feel free to come up with yours. Include no more than 3 major features in your proposal.
 
 **Deliverables:** 1, 2 or at most 3 major features in a SeaORM release
